@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home {
+    padding-top: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    
+}
+.btn-black{
+    padding: .7rem 3rem;
+    background: black;
+    color: white;
+    border: 2px solid rgb(244, 3, 84);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 15px;
+    border-radius: 5rem;
+    margin-bottom: 150px;
+}
+.btn-black:hover{
+    background-color:rgb(244, 3, 84) ;
+    font-weight: 700;
+    color: black;
+}
+.btn-white{
+    padding: .7rem 3rem;
+    background: white;
+    color: black;
+    border: 2px solid rgb(244, 3, 84);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 15px;
+    border-radius: 5rem;
+    margin-bottom: 100px;
+}
+.btn-white:hover{
+    background-color:rgb(244, 3, 84) ;
+    font-weight: 700;
+}
+.heading-black1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.heading-black2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 3, 84);
+}
+.heading-white1{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.heading-white2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 3, 84);
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 30rem;
+    background-color: rgb(244, 3, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid black;
+} 
+header .user .name{
+    font-size: 40px;
+    color: white;
+}
+header .user .post{
+    font-size: 20px;
+    color: rgb(220, 214, 214);
+    margin-bottom: 0;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 10px 40px;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 10px 0;
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+header .navbar ul li a:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: 900;
+
+}
+#menu{
+    position: fixed;
+    top: 2rem; right: 2rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.socials{
+    color:rgb(244, 3, 84) ;
+    padding-left: 700px;
+    display: flex;
+}
+.socials i{
+    padding: 10px;
+    cursor: pointer;
+}
+.socials i:hover{
+    color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: black;
+    color: white;
+    margin-left: 410px;
+}
+.home h3{
+    font-size: 25px;
+    color: white;
+}
+.home h1{
+    font-size:45px ;
+    color: white;
+}
+.anushka{
+    color:rgb(244, 3, 84) ;
+}
+.home p{
+    font-size: 15px;
+    color: white;
+    padding:1rem 0;
+}
+/*css for about */
+.about{
+    background: white;
+    color: black;
+    padding-left: 500px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+
+}
+
+.aboutme{
+    padding: 50px;
+    padding-top: 150px;
+    display: flex;
+}
+.aboutme img{
+   height: 300px;
+   width: auto;
+}
+.info{
+  padding-left: 100px;
+  line-height: 30px;
+  
+}
+.info h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.info p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+/*css for services*/
+.services{
+    background: black;
+    color: white;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+.various-services{
+    display:flex;
+    margin-top: 100px;
+
+}
+.service{
+    background-color: rgb(19, 18, 18);
+    margin-right: 30px;
+    margin-bottom: 400px;
+    padding-top: 60px; padding-bottom: 60px;
+    padding-left: 30px; padding-right: 30px;
+}
+.service:hover{
+    cursor: pointer;
+    background-color: rgb(244, 3, 84);
+}
+.service:hover i{
+    color: white;
+}
+.service h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service p{
+    text-align: justify;
+}
+.service i{
+    padding-left: 160px;
+    padding-bottom: 20px;
+    color: rgb(244, 3, 84);
+}
+/*css for myteam*/
+.team{
+    background: white;
+    color: black;
+    padding-left: 500px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+}
+.members{
+    display: flex;
+    padding:30px;
+}
+.member{
+    padding: 20px;
+    background-color: rgb(248, 217, 227);
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.member:hover{
+    background-color:rgb(244, 3, 84) ;
+}
+.member:hover img{
+     border: 4px solid black;
+}
+.member img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 4px solid rgb(244, 3, 84);
+    margin-bottom: 20px;
+}
+/*css for contact section*/
+.contact{
+    background: black;
+    color: white;
+    padding-left: 500px;
+    padding-top: 100px;
+    
+}
+.side{
+    display: flex;
+}
+.getintouch{
+    width: 35%;
+    padding: 20px;
+    text-align: justify;
+}
+.detail{
+    display: flex;
+    padding: 30px;
+
+}
+.detail i{
+    color:rgb(244, 3, 84) ;
+    padding-top: 25px;
+}
+.detail-specific{
+    padding-left: 20px;
+}
+.detail-specific h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.detail-specific p{
+    font-size: 20px;
+}
+.messageme{
+    width: 30%;
+    margin-left: 10px;
+    padding: 20px;
+}
+.heading h3{
+    font-size: 28px;
+}
+.msg-form{
+    width: 700px;
+    margin-bottom: 100px;
+}
+.msg-form input{
+   margin-left: 40px;
+   color: white;
+   margin-top: 30px;
+   margin-left: 20px;
+    width: 500px;
+    line-height: 30px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 20px;
+    
+}
+.feedback-btn{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+/*css for foter*/
+.footer{
+    background-color: rgb(22, 21, 21);
+    padding-left: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.cright{
+    color: rgb(244, 3, 84);
+}
+Footer
